@@ -2,7 +2,7 @@ const numbers = document.getElementsByClassName("btn");
 const result = document.getElementById("result");
 
 for (let number of numbers) {
-    result.innerHTML = "0"
+    result.innerHTML = "0";
   number.addEventListener("click", () => {
     result.innerHTML += number.value;
   });
